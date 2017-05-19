@@ -1,7 +1,7 @@
 # Payslip Generator
 A payslip generator that takes a .csv file as input and outputs a downloadable .csv file. 
 
-# Instructions
+## Instructions
 - Go to https://payslip-generator-api.herokuapp.com/payslip-generator.
 - Upload a .csv file into the file upload field by drag-and-drop or by clicking it to browse the file system. Click "Reset Field" to clear the file upload field.
 - Click "Generate Payslip Data".
