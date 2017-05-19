@@ -1,0 +1,11 @@
+exports[`Footer should match snapshot 1`] = `
+<footer
+  className="footer text-center">
+  <ul
+    className="list-inline">
+    <li>
+      Payslip Generator 2017
+    </li>
+  </ul>
+</footer>
+`;

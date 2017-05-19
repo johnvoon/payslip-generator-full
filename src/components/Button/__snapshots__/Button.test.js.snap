@@ -1,0 +1,9 @@
+exports[`Button should match snapshot 1`] = `
+<button
+  className="btn text-uppercase btn-primary"
+  disabled={true}
+  onClick={[Function]}
+  type="button">
+  Button
+</button>
+`;

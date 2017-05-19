@@ -1,0 +1,14 @@
+exports[`SuccessAlert should match snapshot 1`] = `
+<div
+  className="alert alert-success"
+  role="alert">
+  <span
+    aria-hidden="true"
+    className="" />
+  <span
+    className="sr-only">
+    Success:
+  </span>
+  Success
+</div>
+`;

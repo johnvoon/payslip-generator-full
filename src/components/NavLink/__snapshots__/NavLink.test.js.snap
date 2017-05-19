@@ -1,0 +1,8 @@
+exports[`NavLink should match snapshot 1`] = `
+<NavLink
+  linkText="Payslip Generator"
+  router={Object {}}
+  slug="payslip-generator">
+  NavLink
+</NavLink>
+`;

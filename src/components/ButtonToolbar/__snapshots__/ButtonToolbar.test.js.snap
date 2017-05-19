@@ -1,0 +1,19 @@
+exports[`ButtonToolbar should match snapshot 1`] = `
+<div
+  className="btn-toolbar">
+  <Button
+    customClassNames="btn-danger"
+    disabled={false}
+    handleClick={[Function]}
+    type="button">
+    Reset Field
+  </Button>
+  <Button
+    customClassNames="btn-primary"
+    disabled={false}
+    handleClick={[Function]}
+    type="submit">
+    Generate Payslip Data
+  </Button>
+</div>
+`;

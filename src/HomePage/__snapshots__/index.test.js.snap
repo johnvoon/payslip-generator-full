@@ -1,0 +1,69 @@
+exports[`HomePage should match snapshot 1`] = `
+<div>
+  <main>
+    <HelmetWrapper
+      meta={
+        Array [
+          Object {
+            "content": "An application to generate CSV payslip data from CSV files.",
+            "name": "description",
+          },
+        ]
+      }
+      title="Payslip Generator" />
+    <div
+      className="jumbotron"
+      style={
+        Object {
+          "backgroundImage": "url(https://payslip-generator.surge.sh/images/calculator.jpg)",
+        }
+      }>
+      <div
+        className="container text-center">
+        <Link
+          className="btn btn-home"
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/payslip-generator">
+          Go to Payslip Generator
+        </Link>
+      </div>
+    </div>
+    <div
+      className="home-content container-fluid">
+      <div
+        className="lg-margin-top">
+        <h1
+          className="text-center">
+          Instructions
+        </h1>
+        <ol>
+          <li>
+            Go to 
+             
+            <Link
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/payslip-generator">
+              Payslip Generator
+            </Link>
+          </li>
+          <li>
+            Upload a .csv file into the file upload field by drag-and-drop or by clicking it to browse your file system. Click \"Reset Field\" to clear the file upload field.
+          </li>
+          <li>
+            Click \"Generate Payslip Data\".
+          </li>
+          <li>
+            Enter an optional file name (defaults to \"payslip.csv\").
+          </li>
+          <li>
+            Click \"Download\".
+          </li>
+        </ol>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</div>
+`;

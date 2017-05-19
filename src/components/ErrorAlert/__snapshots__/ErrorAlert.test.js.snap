@@ -1,0 +1,14 @@
+exports[`ErrorAlert should match snapshot 1`] = `
+<div
+  className="alert alert-danger"
+  role="alert">
+  <span
+    aria-hidden="true"
+    className="" />
+  <span
+    className="sr-only">
+    Error:
+  </span>
+  Error
+</div>
+`;
