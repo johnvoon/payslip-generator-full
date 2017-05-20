@@ -19,3 +19,5 @@ A payslip generator that takes a .csv file as input and outputs a downloadable .
 - JS/JSX code formatting with Prettier-ESLint VS Code extension
 - API hosted on Heroku (free tier)
 - Static assets hosted on Surge.sh
+- Python code testing with pytest
+- JavaScript testing with Jest, Enzyme

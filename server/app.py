@@ -9,7 +9,7 @@ from resources.payslip import Payslip
 app = Flask(__name__)
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
-app.config['DEBUG'] = True
+app.config['DEBUG'] = False
 
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get(
     'DATABASE_URL', 'sqlite:///data.db')

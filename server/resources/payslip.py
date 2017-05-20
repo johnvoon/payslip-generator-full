@@ -3,7 +3,6 @@ import csv
 import requests
 from flask import request, make_response
 from flask_restful import Resource, reqparse
-from models.payslip import Payslip
 from utils import *
 
 
